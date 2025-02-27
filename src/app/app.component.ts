@@ -1,22 +1,15 @@
-import { Component, NgZone, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
-import { SpinnerComponent } from './shared/components/spinner/spinner.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SpinnerComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   showLoadingSpinner = true;
 
-  constructor(private zone: NgZone) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.zone.onStable.subscribe(() => {
-      this.showLoadingSpinner = false;
-    });
-  }
 }

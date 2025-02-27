@@ -25,22 +25,4 @@
   @media #{variables.$s-tablet} {
     padding: 0 40px;
   }
-
-  @media #{variables.$phone} {
-    pt-header {
-      display: none;
-    }
-  }
-}
-
-.loading-overlay {
-  position: fixed;
-  left: 0;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--dark-blue);
 }
