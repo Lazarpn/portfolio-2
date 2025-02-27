@@ -1,0 +1,15 @@
+/* stylelint-disable selector-class-pattern */
+
+@font-face {
+  font-family: "FluentSystemIcons-Filled";
+  src:
+    url("/assets/fonts/fluentsystemicons/FluentSystemIcons-Filled.woff2?9a99f666e13a48c0ad21947b8394f098") format("woff2"),
+    url("/assets/fonts/fluentsystemicons/FluentSystemIcons-Filled.woff?9a99f666e13a48c0ad21947b8394f098") format("woff"),
+    url("/assets/fonts/fluentsystemicons/FluentSystemIcons-Filled.ttf?9a99f666e13a48c0ad21947b8394f098") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Betterlett';
+  src: url("/assets/fonts/betterlett/Betterlett.ttf") format('truetype');
+}
