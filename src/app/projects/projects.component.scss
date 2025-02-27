@@ -1,5 +1,4 @@
 @use "../../scss/variables" as variables;
-@import "animate.css";
 
 :host {
   position: relative;
@@ -58,10 +57,4 @@ img {
   @media #{variables.$l-desktop} {
     top: -120%;
   }
-}
-
-.fade-in {
-  opacity: 1;
-  animation: fadeIn;
-  animation-duration: 3s;
 }
