@@ -1,13 +1,11 @@
 import { Component, NgZone, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
 import { SpinnerComponent } from './shared/components/spinner/spinner.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, SpinnerComponent],
+  imports: [RouterOutlet, SpinnerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

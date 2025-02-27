@@ -4,6 +4,6 @@ export const routes: Routes = [
   { path: '', redirectTo: 'pocetna', pathMatch: 'full' },
   {
     path: 'pocetna',
-    loadComponent: () => import('./home/home.component').then(c => c.HomeComponent),
+    loadComponent: () => import('./projects/projects.component').then(c => c.ProjectsComponent),
   },
 ];
