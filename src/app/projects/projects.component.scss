@@ -4,34 +4,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  margin-top: 60px;
-  justify-items: center;
-  row-gap: 80px;
-
-  @media #{variables.$xxl-desktop} {
-    row-gap: 60px;
-  }
-
-  @media #{variables.$laptop} {
-    row-gap: 40px;
-  }
-
-  @media #{variables.$xl-desktop} {
-    grid-template-columns: 1fr;
-  }
-
-  @media #{variables.$l-desktop} {
-    row-gap: 120px;
-  }
+video {
+  width: 760px;
+  height: 340px;
 }

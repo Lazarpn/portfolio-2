@@ -1,10 +1,8 @@
 import { AfterViewInit, Component, ElementRef } from '@angular/core';
 
-import { ProjectComponent } from './project/project.component';
-
 @Component({
   selector: 'pt-projects',
-  imports: [ProjectComponent],
+  imports: [],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
