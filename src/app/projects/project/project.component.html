@@ -1,8 +1,6 @@
 <div
-  class="project"
-  (mouseleave)="projectHovered = false"
-  (mouseover)="projectHovered = true">
-  <div class="text" [class.visible-text]="projectHovered">
+  class="project">
+  <!-- <div class="text" [class.visible-text]="projectHovered">
     <h3>{{heading}}</h3>
     <span>{{description}}</span>
     <div class="tags-wrapper">
@@ -10,7 +8,7 @@
         <div class="project-tag">{{tag}}</div>
       }
     </div>
-  </div>
+  </div> -->
 
   <video [class.video-hover]="projectHovered" autoplay loop [muted]="true" playsinline>
     <source [src]="videoUrl" type="video/webm">
@@ -18,7 +16,7 @@
   </video>
 </div>
 
-<div class="text-tablet">
+<!-- <div class="text-tablet">
   <h3>{{heading}}</h3>
   <span>{{description}}</span>
   <div class="tags-wrapper">
@@ -26,4 +24,4 @@
       <div class="project-tag">{{tag}}</div>
     }
   </div>
-</div>
+</div> -->

@@ -11,11 +11,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.title-wrapper {
-  z-index: 2;
-  opacity: 0;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -38,19 +33,5 @@ h2 {
 
   @media #{variables.$l-desktop} {
     row-gap: 120px;
-  }
-}
-
-img {
-  position: absolute;
-  top: -80%;
-  left: -10%;
-  z-index: 1;
-  width: 110vw;
-  object-fit: cover;
-  opacity: 0;
-
-  @media #{variables.$l-desktop} {
-    top: -120%;
   }
 }
