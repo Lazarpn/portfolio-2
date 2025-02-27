@@ -1,11 +1,10 @@
 import { AfterViewInit, Component, ElementRef } from '@angular/core';
 
-import { TagComponent } from '../shared/components/tag/tag.component';
 import { ProjectComponent } from './project/project.component';
 
 @Component({
   selector: 'pt-projects',
-  imports: [ProjectComponent, TagComponent],
+  imports: [ProjectComponent],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
